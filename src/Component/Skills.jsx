@@ -8,12 +8,12 @@ export const Skills = () => {
 	};
 	console.log(idx);
 	return (
-		<div>
-			<h2 className="textcenter">Skills</h2>
-
-			<div className="border">
+		<div className="text-center">
+			<h2>Skills</h2>
+			<hr />
+			<div>
 				{/* btn group */}
-				<div className="btn-group" role="group" aria-label="Basic example">
+				<div className="btn-group" role="group">
 					<button
 						id="btn1"
 						onClick={handleOnClick}
@@ -40,7 +40,6 @@ export const Skills = () => {
 					</button>
 				</div>
 				<div>
-					{console.log(idx)}
 					{idx === "btn3" && <div id="div3">Javascript</div>}
 					{idx === "btn2" && <div id="div2">CSS</div>}
 					{idx === "btn1" && <div id="div1">HTML</div>}

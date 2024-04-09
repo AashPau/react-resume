@@ -1,6 +1,7 @@
 import React from "react";
 import { Projects } from "./Projects";
-import { Skills } from "./Skills";
+// import { Skills } from "./Skills";
+import { SkillsView } from "./SkillsView";
 
 export const Body = () => {
 	return (
@@ -13,8 +14,10 @@ export const Body = () => {
 			<br />
 			<br />
 			<section>
-				<Skills />
+				{/* <Skills /> */}
+				<SkillsView />
 			</section>
+			<div></div>
 			<br />
 			<br />
 			<Projects />
