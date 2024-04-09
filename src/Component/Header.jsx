@@ -16,11 +16,19 @@ export const Header = () => {
 					</div>
 					<div className="col-md-10">
 						<h1>Aashish Paudel</h1>
-						<p>Software Engineer</p>
-						<p>Phone: 04xxxxx | email: aa@asdnasda.com</p>
-						<button className="btn btn-primary">Download Resume</button>
+						<p>Software Developer</p>
+						<p>Phone: 04xxxxx | email: aashpau@gmail.com</p>
+						<a href="" className="btn btn-primary">
+							Download Resume
+						</a>
 						<br />
-						<button className="btn btn-secondary mt-2">Github Profile</button>
+						<a
+							href="https://github.com/AashPau"
+							className="btn btn-secondary mt-2"
+							target="_blank"
+						>
+							Github Profile
+						</a>
 					</div>
 				</div>
 			</div>

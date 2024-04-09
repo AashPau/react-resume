@@ -20,47 +20,69 @@ export const Projects = () => {
 						<tr>
 							<th scope="row">1</th>
 							<td>Portfolio</td>
-							<td>html, css, javascript</td>
+							<td>html, css, react, bootstrap</td>
 							<td>Portfolio for myself</td>
 							<td>
-								<a href="">Github</a> <a href="">Live</a>
+								<a href="https://github.com/AashPau/Portfolio" target="_blank">
+									Github
+								</a>{" "}
+								<a href="aashishpaudel.com" target="_blank">
+									Live
+								</a>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row">2</th>
-							<td>Calculator</td>
+							<td>BG Color Changer</td>
 							<td>html, css, javascript</td>
-							<td>It will allow for basic calculation.</td>
 							<td>
-								<a href="">Github</a> <a href="">Live</a>
+								It will allow to change background color with a click of a
+								button and display the color codes in Hex and RGB.
+							</td>
+							<td>
+								<a
+									href="https://github.com/AashPau/react-bg-color-changer"
+									target="_blank"
+								>
+									Github
+								</a>{" "}
+								<a
+									href="https://react-bg-color-changer-indol.vercel.app"
+									target="_blank"
+								>
+									Live
+								</a>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row">3</th>
-							<td>Marketing Website</td>
-							<td>html, css, javascript</td>
+							<td>Counter</td>
+							<td>html, javascript, bootstrap</td>
 							<td>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-								Eveniet perferendis doloribus fugit perspiciatis. Tempore
-								sapiente et quos possimus nam magnam, nisi eveniet dolorum
-								nulla, pariatur maiores placeat non ea a.
+								Counter with a slight twist of number chaning color if positivve
+								or negative.
 							</td>
 							<td>
-								<a href="">Github</a> <a href="">Live</a>
+								<a href="https://github.com/AashPau/counter" target="_blank">
+									Github
+								</a>{" "}
+								<a href="https://counter-plum-rho.vercel.app/" target="_blank">
+									Live
+								</a>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row">4</th>
-							<td>lorem Ipsum</td>
-							<td>html, css, javascript</td>
+							<td>Name List</td>
+							<td>React, Jsx, bootstrap</td>
+							<td>Display the entered name and enter it to a list.</td>
 							<td>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-								Eveniet perferendis doloribus fugit perspiciatis. Tempore
-								sapiente et quos possimus nam magnam, nisi eveniet dolorum
-								nulla, pariatur maiores placeat non ea a.
-							</td>
-							<td>
-								<a href="">Github</a> <a href="">Live</a>
+								<a href="https://github.com/AashPau/namelist" target="_blank">
+									Github
+								</a>{" "}
+								<a href="https://namelist-pied.vercel.app/" target="_blank">
+									Live
+								</a>
 							</td>
 						</tr>
 					</tbody>
