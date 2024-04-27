@@ -1,22 +1,22 @@
 import "./App.css";
-import { Header } from "./Component/Header";
-import { Body } from "./Component/Body";
-import { Footer } from "./Component/Footer";
+import { Hero } from "./Component/Hero/Hero";
+import { Footer } from "./Component/Footer/Footer";
+import { Skills } from "./Component/Skills/Skills";
+import { Projects } from "./Component/Projects/Projects";
+import { Nav } from "./Component/Nav/Nav";
 
 function App() {
-	return (
-		<div className="container mt-3">
-			<div>
-				<Header />
-			</div>
-			<div>
-				<Body />
-			</div>
-			<div>
-				<Footer />
-			</div>
-		</div>
-	);
+  return (
+    <div>
+      <Nav />
+      <Hero />
+
+      <Skills />
+      <Projects />
+
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
