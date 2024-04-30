@@ -1,20 +1,18 @@
 import "./App.css";
-import { Hero } from "./Component/Hero/Hero";
-import { Footer } from "./Component/Footer/Footer";
-import { Skills } from "./Component/Skills/Skills";
-import { Projects } from "./Component/Projects/Projects";
-import { Nav } from "./Component/Nav/Nav";
+import { Header } from "./components/Header";
+import { ContactForm } from "./components/ContactForm";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Hero />
+    <div className="wrapper">
+      {/* Header */}
+      <Header />
+      {/* body */}
 
-      <Skills />
-      <Projects />
+      {/* form */}
+      <ContactForm />
 
-      <Footer />
+      {/* footer */}
     </div>
   );
 }
