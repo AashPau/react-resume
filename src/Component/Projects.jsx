@@ -5,29 +5,29 @@ const projects = [
     title: "Portfolio",
     techUsed: "react, bootstrap",
     description: "Portfolio for Myself",
-    siteLink: "",
-    gitHubLink: "",
+    siteLink: "aashishpaudel.com",
+    gitHubLink: "https://github.com/AashPau/react-resume",
   },
   {
-    title: "Portfolio",
-    techUsed: "react, bootstrap",
-    description: "Portfolio for Myself",
-    siteLink: "",
-    gitHubLink: "",
+    title: "Notes App",
+    techUsed: "react, bootstrap, express, mongoDB, JWT, react-router",
+    description: "A simple app to keep notes",
+    siteLink: "https://note-app-mu-beryl.vercel.app",
+    gitHubLink: "https://github.com/AashPau/Note-app",
   },
   {
-    title: "Portfolio",
-    techUsed: "react, bootstrap",
-    description: "Portfolio for Myself",
-    siteLink: "",
-    gitHubLink: "",
+    title: "Book Reader",
+    techUsed: "react, bootstrap, api",
+    description: "A web-app to search books through API",
+    siteLink: "https://book-reader-ten.vercel.app",
+    gitHubLink: "https://github.com/AashPau/book-reader",
   },
   {
-    title: "Portfolio",
+    title: "Calculator",
     techUsed: "react, bootstrap",
-    description: "Portfolio for Myself",
-    siteLink: "",
-    gitHubLink: "",
+    description: "Simple classic calculator",
+    siteLink: "https://calculator-sandy-nine-18.vercel.app",
+    gitHubLink: "https://github.com/AashPau/calculator",
   },
 ];
 export const Projects = () => {
@@ -47,74 +47,22 @@ export const Projects = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Portfolio</td>
-              <td>html, css, react, bootstrap</td>
-              <td>Portfolio for myself</td>
-              <td>
-                <a href="https://github.com/AashPau/Portfolio" target="_blank">
-                  Github
-                </a>{" "}
-                <a href="aashishpaudel.com" target="_blank">
-                  Live
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>BG Color Changer</td>
-              <td>html, css, javascript</td>
-              <td>
-                It will allow to change background color with a click of a
-                button and display the color codes in Hex and RGB.
-              </td>
-              <td>
-                <a
-                  href="https://github.com/AashPau/react-bg-color-changer"
-                  target="_blank"
-                >
-                  Github
-                </a>{" "}
-                <a
-                  href="https://react-bg-color-changer-indol.vercel.app"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Counter</td>
-              <td>html, javascript, bootstrap</td>
-              <td>
-                Counter with a slight twist of number chaning color if positivve
-                or negative.
-              </td>
-              <td>
-                <a href="https://github.com/AashPau/counter" target="_blank">
-                  Github
-                </a>{" "}
-                <a href="https://counter-plum-rho.vercel.app/" target="_blank">
-                  Live
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Name List</td>
-              <td>React, Jsx, bootstrap</td>
-              <td>Display the entered name and enter it to a list.</td>
-              <td>
-                <a href="https://github.com/AashPau/namelist" target="_blank">
-                  Github
-                </a>{" "}
-                <a href="https://namelist-pied.vercel.app/" target="_blank">
-                  Live
-                </a>
-              </td>
-            </tr>
+            {projects.map((project, i) => (
+              <tr key={i}>
+                <th scope="row">{i + 1}</th>
+                <td>{project.title}</td>
+                <td>{project.techUsed}</td>
+                <td>{project.description}</td>
+                <td>
+                  <a href={project.gitHubLink} target="_blank">
+                    Github
+                  </a>{" "}
+                  <a href={project.siteLink} target="_blank">
+                    Live
+                  </a>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </section>
