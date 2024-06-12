@@ -9,7 +9,7 @@ export const Body = () => {
     <div>
       <section>
         <h4 className="text-center">
-          Hello, I am Aashish Paudel. I am a Junior Software Developer.
+          Hello, I am Aashish Paudel. I am MERN full-stack developer.
         </h4>
       </section>
       <br />
