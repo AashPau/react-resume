@@ -5,7 +5,7 @@ const projects = [
     title: "Portfolio",
     techUsed: "react, bootstrap",
     description: "Portfolio for Myself",
-    siteLink: "aashishpaudel.com",
+    siteLink: "https://aashishpaudel.com",
     gitHubLink: "https://github.com/AashPau/react-resume",
   },
   {
